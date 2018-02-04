@@ -122,6 +122,29 @@ p {
 	padding-bottom: 80px;
 }
 
+.process-section {
+      
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+   position: relative;
+    width: 100%;
+}
+
+.process-section:before{
+	content: "";
+	display: block;
+	padding-top: 30%; 	/* initial ratio of 1:1*/
+}
+
+.process-sub{
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+
 #tm-section-1 {	
 	background-image: url('../img/bg-img-1.jpg');	
 	height: 515px;
@@ -241,14 +264,17 @@ select.tm-select::-ms-expand { display: none; }
 .tm-pb-4 { padding-bottom: 100px; }
 
 .tm-section-2 {
-	background: #ee5057;
-	padding-top: 50px;
-	position: relative;
+	background: linear-gradient(rgba(238,80,87,0.75),rgba(238,80,87,0.2) ), url(/img/kitchen-sink.jpg);    
+    background-size: cover;
+    height: 30rem;
 }
+
+
 
 .tm-section-title {
 	color: white;
 	font-size: 3.9rem;
+    padding-top:50px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
