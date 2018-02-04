@@ -266,6 +266,7 @@ select.tm-select::-ms-expand { display: none; }
 .tm-section-2 {
 	background: linear-gradient(rgba(238,80,87,0.75),rgba(238,80,87,0.2) ), url(/img/kitchen-sink.jpg);    
     background-size: cover;
+    background-position:left bottom;
     height: 30rem;
 }
 
