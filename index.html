@@ -1,155 +1,155 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <head>
+	<title>DaySponge</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/superfish.css">
+	<link rel="stylesheet" href="css/ds-style.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/main.js"></script>
 
-    <title>Day Sponge</title>
+	</head>
+	<body>
+		<div id="ds-wrapper">
+		<div id="ds-page">
+		<div id="ds-header">
+			<header id="ds-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="js-ds-nav-toggle ds-nav-toggle"><i></i></a>
+						<h1 id="ds-logo"><a href="index.html">Day Sponge</a></h1>
+						<!-- START #ds-menu-wrap -->
+						<nav id="ds-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="ds-primary-menu">
+								<li class="active">
+									<a href="index.html">Home</a>
+								</li>
+								<li><a href="#ds-about-us">About Us</a></li>
+								<li><a href="#ds-contact-us">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			
+		</div>
+		
 
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                    
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="css/DS-Style.css">
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    
-    
-    var $form = $('form#contact-form'),
-    url = 'https://script.google.com/a/macros/daysponge.com/u/1/s/AKfycbwgXpO6zRd-a2nmzfkgzkdfc-CONZCpFpJhhW1lCRswVYnlAPo/exec'
+		<div class="ds-hero">
+			<div class="ds-overlay"></div>
+			<div class="ds-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/home-image.jpg);">
+				<div class="desc animate-box">
+					<h2>Day Sponge</h2>
+					<span>It's a brand new day for a brand new Sponge</span>
+					<span><a class="btn btn-primary" href="#">Purchase!</a></span>
+				</div>
+			</div>
 
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-  );
-})
-    </script> -->
-</head>
+		</div>
 
-    <body>
-        <div class="tm-main-content" id="top">
-            <div class="tm-top-bar-bg"></div>
-            <div class="tm-top-bar" id="tm-top-bar">
-                <!-- Top Navbar -->
-                <div class="container">
-                    <div class="row">
-                        
-                       <nav class="navbar navbar-expand-lg narbar-light">
-                            <a class="navbar-brand mr-auto" href="#">
-                                <img src="img/logox50.png" alt="Site logo">
-                            </a>
-                            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
-                                <ul class="navbar-nav ml-auto">
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-4">About Us</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-5">Buy</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#tm-section-6">Contact Us</a>
-                                  </li>
-                                </ul>
-                            </div>                            
-                        </nav>            
-                    </div>
-                </div>
-            </div>
-           
-            <div class="tm-section-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col text-center">
-                            <h2 class="tm-section-title">It's a brand new day,<br>for a brand new Sponge</h2>
-                            <p class="tm-color-white tm-section-subtitle"></p>
-                            <a href="#" class="tm-color-white tm-btn-white-bordered">Learn more</a>
-                        </div>                
-                    </div>
-                </div>  
-            </div>
-            <div class="tm-section-2.overlay"></div>
-        
-            <div class="tm-section-4"> 
-            <div class="process-section">
-                <div class="process-sub">
-                <h1>We'll be up and running shortly!</h1>
-                <h3></h3>
-                </div>
-                
-                </div>
-            </div>
+		<div id="ds-about-us" class="ds-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>Who we are</h3>
+						<p>We are a company dedicated to bringing the most cutting edge technology to the consumer market for cleaning products. We sell products that are designed to enhance your life by eliminating bacteria filled environments like old dirty sponges. We believe that the best way to live life is to start every day with a new fresh start. </p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-4 col-sm-4">
+						<div class="services animate-box">
+							<span><i class="icon-browser"></i></span>
+							<h3>Shipped</h3>
+							<p>Order online and get your day sponge roll for 15 or 30 days delivered straight to your door.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="services animate-box">
+							<span><i class="icon-mobile"></i></span>
+							<h3>Scrub</h3>
+							<p>Rip off a sponge from your roll and clean away!</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="services animate-box">
+							<span><i class="icon-tools"></i></span>
+							<h3>Toss</h3>
+							<p>When your done, just toss and relax. Another day another sponge.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ds-content-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>Did you know...</h3>
+						<p>Your sponge harbors zillions of microbes?</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="ds-testimonial text-center animate-box">
+							<figure>
+								<img src="images/user-1.jpg" alt="user">
+							</figure>
+							<blockquote>
+								<p>"That sponge in your kitchen sink harbors zillions of microbes, including close relatives of the bacteria that cause pneumonia and meningitis, according to a new study. One of the microbes, Moraxella osloensis, can cause infections in people with a weak immune system and is also known for making laundry stink, possibly explaining your sponge’s funky odor."</p>
+							</blockquote>
+							<span>Giorgia Guglielmi</span>
+                                <br><a>Learn more <a href="http://www.sciencemag.org/news/2017/07/your-kitchen-sponge-harbors-zillions-microbes-cleaning-it-could-make-things-worse"> here</a></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="ds-contact-us" class="ds-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3 id="ContactUs">Contact Us</h3>
+						<p>Want to reach out? Shoot us an <a href="mailto:karan@daysponge.com" style=""> Email</a></p>
+                        <p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ds-blog-section -->
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+														 </div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
 
-            
+	</div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mt-3 mt-md-0">
-                            <div class="tm-bg-white tm-p-4">
-                                <form
-                                      id="contact-form" action="mailto:karan@daysponge.com" method="post" enctype="text/plain">
-                                    <div class="form-group">
-                                        <input type="text" id="Name" name="Name" class="form-control" placeholder="Name"  required/>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" id="Email" name="Email" class="form-control" placeholder="Email"  required/>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" id="Subject" name="Subject" class="form-control" placeholder="Subject"  required/>
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea id="Message" name="Message" class="form-control" rows="9" placeholder="Message" required></textarea>
-                                    </div>
-                                    <button type="submit" id="submit-form" class="btn btn-primary tm-btn-primary">Send Message Now</button>
-                                </form>
-                            </div>                          
+	</div>
 
-                        </div>
-                    </div>        
-            
-            <footer class="tm-bg-dark-blue">
-                <div class="container">
-                    <div class="row">
-                        <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
-                         <span class="tm-current-year"></span> DaySponge 
-                        
-                       </p>        
-                    </div>
-                </div>                
-            </footer>
-
-<script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-        <script src="js/popper.min.js"></script>                    <!-- https://popper.js.org/ -->       
-        <script src="js/bootstrap.min.js"></script>    
-<script src="slick/slick.min.js"></script> 
-<script>
-function setPageNav(){
-                if($(window).width() > 991) {
-                    $('#tm-top-bar').singlePageNav({
-                        currentClass:'active',
-                        offset: 79
-                    });   
-                }
-                else {
-                    $('#tm-top-bar').singlePageNav({
-                        currentClass:'active',
-                        offset: 65
-                    });   
-                }
-            }
-
-</script>
-</body>
+            </body>
 </html>
-
